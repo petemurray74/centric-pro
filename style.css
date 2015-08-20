@@ -1377,7 +1377,6 @@ Content Area
 
 .home-featured .wrap {
 	margin-top: -160px;
-	max-width: 782px;
 	display: table;
 	text-align: center;
 }
@@ -1389,6 +1388,7 @@ Content Area
 	width: 100%;
 	padding: 140px 0;
 	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.75);
 }
 
 .home-widgets-1 h1 {
@@ -2242,7 +2242,7 @@ Media Queries
 @media only screen and (max-width: 1023px) {
 
 	.wrap {
-		max-width: 782px;
+		max-width: 960px;
 	}
 
 	.content,
@@ -2641,10 +2641,8 @@ a:hover.more-link {
 -----------------------------------------------------------------------------------*/
 .home-featured h1 {
 	color: #ff8900;
-	background-color: #000;
 	font-size: 50px;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-top: 30px 20px;
 	margin-bottom: 0;
 }
 .post h1.entry-title {
@@ -2748,7 +2746,6 @@ div.home-widgets-6, div.home-widgets-6 a {
 }
 
 .anchors {
-	background-color: #000;
 	padding: 30px;
 }
 
