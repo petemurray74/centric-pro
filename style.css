@@ -875,6 +875,21 @@ Widgets
 	font-size: 20px;
 }
 
+/* 3 coloured boxes on home */
+.home #featured-post-2 .entry-content {
+    padding: 1em 30px ;
+}
+
+.home #featured-post-2 header {
+    padding: 0 30px;
+}
+
+.home #featured-post-2 article {
+    border:0;
+	padding:0;
+}
+
+
 
 /*
 Plugins
@@ -2628,7 +2643,7 @@ a:hover.more-link {
 	color: #ff8900;
 	background-color: #000;
 	font-size: 50px;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-bottom: 10px;
 	margin-bottom: 0;
 }
