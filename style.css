@@ -2642,7 +2642,7 @@ a:hover.more-link {
 .home-featured h1 {
 	color: #ff8900;
 	font-size: 50px;
-	padding-top: 30px 20px;
+	padding: 30px 20px;
 	margin-bottom: 0;
 }
 .post h1.entry-title {
