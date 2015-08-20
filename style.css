@@ -1833,7 +1833,7 @@ Footer Widgets
 }
 
 .footer-widgets-4 {
-	width: 540px;
+	width: 440px;
 }
 
 .footer-widgets-1,
@@ -2725,6 +2725,11 @@ div.home-widgets-3 img {
 
 .home-widgets .featuredpage:nth-child(3n+2) {
     background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.075);
+}
+
+/*fix unwanted background colour on titles */
+.home-widgets .featuredpage:nth-child(3n+2) .entry-title a {
+    background-color: inherit;
 }
 
 div.home-widgets-6, div.home-widgets-6 a {
