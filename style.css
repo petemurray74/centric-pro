@@ -1128,6 +1128,7 @@ Site Header
 	text-align: right;
 	padding-top: 10px;
 	width: 1000px;
+	float:right;
 }
 
 .site-header .widget-area a,
@@ -2178,7 +2179,7 @@ Media Queries
 	}
 	
 	.site-header .widget-area {
-		width: 540px;
+		width: auto;
 	}
 
 	.sidebar-primary {
