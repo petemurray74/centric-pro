@@ -1386,7 +1386,7 @@ Content Area
 	display: table-cell;
 	vertical-align: middle;
 	width: 100%;
-	padding: 140px 0;
+	padding: 140px 0 60px 0;
 	font-size: 20px;
 	background-color: rgba(0, 0, 0, 0.75);
 }
@@ -2751,7 +2751,6 @@ div.home-widgets-6, div.home-widgets-6 a {
 
 
 .arrow {
-	background-color: #000;
 	padding-bottom: 20px;
 }
 
